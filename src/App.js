@@ -1,22 +1,13 @@
-import './App.css';
-// import Greet from './components/functionalComponent';
-import { Greet } from './components/functionalComponent';
-import ClassComponent from './components/classComponent';
-import { Component } from 'react';
-
-
-class App extends Component{
-  render() {
-    const user = 'Rohit';
+import React from "react";
+import Header from "./components/Header";
+import List from "./components/List";
+function App(){
     return (
       <div className="App">
-        <Greet></Greet>
-        <ClassComponent />
-        {user}
+        <Header />
+        <List />
       </div>
     );
   }
-  }
-  
 
 export default App;

@@ -10,7 +10,7 @@
   text-transform: capitalize;
   font-weight: bold;
   text-shadow: 0px 2px 4px #ffe9c5;
-  margin: 70px 0;
+  /* margin: 70px 0; */
 }
 .time_div{
   color: rgb(221, 115, 77);
