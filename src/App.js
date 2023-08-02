@@ -1,11 +1,9 @@
 import React from "react";
-import Header from "./components/Header";
-import List from "./components/List";
+import FunctionalComponent from "./components/FunctionalComponent";
 function App(){
     return (
       <div className="App">
-        <Header />
-        <List />
+        <FunctionalComponent/>
       </div>
     );
   }
