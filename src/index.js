@@ -1,17 +1,34 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+const name = 'rohit';
+const lname = 'Kucheria'
+var flag = '';
+if(3<4){
+    flag = 'true';
+  }if(3>2){
+    flag = 'false';
+  }
+  const currDate = new Date().toLocaleDateString();
+  const currTime = new Date().toLocaleTimeString();
+  const img1 = 'https://picsum.photos/400/300';
+  const img2 = 'https://picsum.photos/500/300';
+  const img3 = 'https://picsum.photos/600/400';
+ReactDOM.render(
+  <>
+    <h1 className='heading'> Welcome to React Application</h1>
+    <div className='time_div'>
+      <h4>Current Date : {currDate}</h4><br/>
+      <h4>Current Time : {currTime}</h4>
+    </div>
+    <div className='img_div'>
+      <img src={img1} alt='img'/>
+      <img src={img2} alt='img'/>
+      <img src={img3} alt='img'/>
+    </div>
+    
+    
+  </>,
+  document.getElementById("root")
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
