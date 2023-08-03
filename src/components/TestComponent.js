@@ -5,7 +5,7 @@ const allocation = '8 hours';
 
 function TestComponent(){
     return <>
-    <h3>Hello Team</h3>
+    <span>Hello Team</span>
     </>
 }
 function functional(){

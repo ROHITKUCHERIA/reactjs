@@ -22,7 +22,7 @@ function App(){
           <li>{compObj.allocation}</li>
           <li>{compObj.functional()}</li>
           <li>{compObj.testfunctions()}</li>
-          {/* <li><TestComponent /></li> */}
+          <li>{compObj.TestComponent()}</li>
         </ol>
 
 
