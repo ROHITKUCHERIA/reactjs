@@ -32,7 +32,7 @@ import Const from './Const'
 
 
 
-function Movies(){
+function Dishes(){
     return (
         <>
         {/* {console.log(Const)} */}
@@ -56,9 +56,10 @@ function Movies(){
     console.log(index);
             return (
                 <Card
+                key = {val.id}
                 buttonlink = {val.buttonlink}
                 title = {val.title}
-                discription = {val.title}
+                discription = {val.discription}
                 imgsrc  = {val.imgsrc}
                 />
             )
@@ -69,4 +70,4 @@ function Movies(){
         
     );
 }
-export default Movies;
+export default Dishes;

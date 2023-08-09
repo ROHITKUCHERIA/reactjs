@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Movies from './components/Movies';
+import Dishes from './components/Dishes';
 
-ReactDOM.render(<Movies />,
+ReactDOM.render(<Dishes />,
   document.getElementById("root")
 );

@@ -1,25 +1,29 @@
 const arr = [
     {
-        buttonlink : 'https://google.com',
-        title : 'Dark',
-        discription : 'Some quick example text to build on the card title and make up the bulk of the cards contant',
-        imgsrc : 'https://picsum.photos/200/200'
+        id :1,
+        buttonlink : 'https://www.swiggy.com/restaurants/punjabi-angithi-gulmohar-market-sector-15-noida-1-424706',
+        title : 'Punjabi Angithi',
+        discription : 'North Indian, Chinese, Tandoor',
+        imgsrc : 'https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/uubzuxzz2nps1zylts6f'
     },
     {
-        imgsrc : 'https://picsum.photos/205/200',
-        title : 'Lost In Space',
-        discription : 'Some quick example text to build on the card title and make up the bulk of the cards contant',
-        buttonlink : 'https://google.com'
+        id : 2,
+        imgsrc : 'https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/ee4f041cd8611dccc19f4267783ab5ea',
+        title : 'EatFit',
+        discription : 'Chinese, Pizzas, North Indian',
+        buttonlink : 'https://www.swiggy.com/restaurants/eatfit-d-block-sector-10-noida-1-443500'
     },{
-        buttonlink : 'https://google.com',
-        title : 'The 100',
-        discription : 'Some quick example text to build on the card title and make up the bulk of the cards contant',
-        imgsrc : 'https://picsum.photos/210/200'
+        id : 3,
+        buttonlink : 'https://www.swiggy.com/restaurants/kfc-p-block-sector-18-noida-1-39294',
+        title : 'KFC',
+        discription : 'Burgers, American, Snacks, Pizzas',
+        imgsrc : 'https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/56c9ab92bd79745fd152a30fa2525426'
     },{
-        buttonlink : 'https://google.com',
-        title : 'Stranger Things',
-        discription : 'Some quick example text to build on the card title and make up the bulk of the cards contant',
-        imgsrc : 'https://picsum.photos/210/208'
+        id : 4,
+        buttonlink : 'https://www.swiggy.com/restaurants/mcdonalds-a-block-sector-16-noida-1-253726',
+        title : `McDonalds's`,
+        discription : 'American',
+        imgsrc : 'https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/08eee882fda81b68e5c36e3a5d89d8c0'
     },
 
 ]
