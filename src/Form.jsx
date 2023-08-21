@@ -14,27 +14,41 @@ function Form() {
     const {value, name} = event.target;
 
     chnageName((preValue) => {
-      if(name === 'fname'){
-        return {
-          fname: value,
-          lname: preValue.lname,
-          email: preValue.email
-        }
+
+      // ************************ Start *********** 
+
+      // if(name === 'fname'){
+      //   return {
+      //     fname: value,
+      //     lname: preValue.lname,
+      //     email: preValue.email
+      //   }
+      // }
+      // else if(name === 'lname'){
+      //   return {
+      //     fname: preValue.fname,
+      //     lname: value,
+      //     email: preValue.email
+      //   }
+      // }
+      // else if(name === 'email'){
+      //   return {
+      //     fname: preValue.fname,
+      //     lname: preValue.lname,
+      //     email: value
+      //   }
+      // }
+      // *******************End **********************
+
+      // we can use this type of logic *************
+     
+      return {
+        ...preValue,
+        [name] :value
       }
-      else if(name === 'lname'){
-        return {
-          fname: preValue.fname,
-          lname: value,
-          email: preValue.email
-        }
-      }
-      else if(name === 'email'){
-        return {
-          fname: preValue.fname,
-          lname: preValue.lname,
-          email: value
-        }
-      }
+      //******************** End ************************* 
+
+
     });
   };
 
@@ -53,8 +67,8 @@ function Form() {
     <>
       <div style={{ margin: 100}}>
         <form onSubmit={formSubmit}>
-          <p style={{ textAlign:"center"}}><h1>My Name Is {name.fname} {name.lname}</h1>
-          <h4>Email {name.email}</h4></p><br/><br/><br/>
+          <p style={{ textAlign:"center"}}>My Name Is {name.fname} {name.lname}
+          <br/><br/>Email {name.email}</p><br/><br/><br/>
           <p>First Name :</p><input
             type="text"
             style={{padding: 10,marginBlock:10}}
