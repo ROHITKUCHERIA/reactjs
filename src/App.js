@@ -6,7 +6,6 @@ import Form from './Form';
 const App = () => {
     return (<>
       <Form/>
-     <h1>Body</h1>
      </>);
   }
   
