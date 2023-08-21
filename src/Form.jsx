@@ -8,8 +8,10 @@ function Form() {
   });
   
   const setValue = (event) => {
-    const value = event.target.value;
-    const name = event.target.name;
+    // const value = event.target.value;
+    // const name = event.target.name;
+
+    const {value, name} = event.target;
 
     chnageName((preValue) => {
       if(name === 'fname'){
